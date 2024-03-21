@@ -1,17 +1,7 @@
 package ScientificCalculator;
 
-public class Operation {
-    /*
-        These class include Five operations: Addition, Subtraction, Multiplication,
-        Division and modulo
-     */
-    private Addition addition;
-    private Multiplication multiplication;
-    private Division division;
-    private Subtraction subtraction;
-    private Modulo modulo;
-
-
+public interface Operation  {
+    double calculate(double num1, double num2);
 
 
 }
